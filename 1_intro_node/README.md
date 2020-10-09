@@ -42,3 +42,9 @@ Node.js runs single-threaded, non-blocking, asynchronously programming, which is
 --A typical event is someone trying to access a port on the server<br>
 --Node.js files must be initiated on the server before having any effect<br>
 --Node.js files have extension ".js"
+
+## What is REPL in node?
+REPL stands for Read Eval Print Loop and it represents a computer environment like a Windows console or Unix/Linux shell where a command is entered and the system responds with an output in an interactive mode. Node.js or Node comes bundled with a REPL environment.
+<br>
+Press tab key 2 times to get module list.
+<br>

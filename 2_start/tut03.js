@@ -5,7 +5,7 @@ const port = 3000;
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
-  res.setHeader('Content-Type', 'text/html');
+  res.setHeader('Content-Type', 'text/html');   // note here text/html 
   res.end(`<!DOCTYPE html>
   <html lang="en">
   <head>
