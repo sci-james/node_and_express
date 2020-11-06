@@ -2,7 +2,6 @@
 const express = require("express");
 const path = require("path");
 const fs = require('fs');
-
 const app = express();
 const port = 80;
 
@@ -30,15 +29,7 @@ app.post('/', (req,res)=>{
     else{
         res.status(200).render('index.pug',adding);
     }
-    
-
-    
 });
-
-
-
-
-
 
 //START THE SERVER
 app.listen(port,()=>{

@@ -1,17 +1,7 @@
 var React = require('react');
 // var DefaultLayout = require('./default');
 
-function containe(props){
-  return(
-      <ul>
-        <li>item1</li>
-        <li>item2</li>
-        <li>item3</li>
-        <li>item4</li>
-      </ul>
-    
-  );
-};
+
 function HelloMessage(props) {
   return (
     <html>
@@ -22,7 +12,12 @@ function HelloMessage(props) {
       <body>
         <div className="Name">{props.name}</div>
         <div className="main">
-          {containe}
+        <ul>
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+        <li>item4</li>
+      </ul>
         </div>
 
         </body>
