@@ -14,6 +14,11 @@
 
 ## <a href="10_express">Using and What is express js?</a>
 ## <a href="11_pug_static_files">Serving static files and html template using pug template engine in express js</a>
+## <a href="12_using_html">Using raw html in  pug template engine</a>
+## <a href="13_making_login">Simple Login Page using node, express and pug template engine</a>
+## <a href="14_making_project">A Sample Dance Academy demo Website Project with submitting form</a>
+## <a href="15_react_views">Using express-react-views Template engine</a>
+## <a href="intro_to_mongodb">Introduction to MONGODB database</a>
 
 
 
