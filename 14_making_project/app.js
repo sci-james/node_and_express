@@ -19,7 +19,12 @@ app.set('views', path.join(__dirname,'views')); // set the views directory
 // ENDPOINTS
 app.get('/', (req,res)=>{
     // const params = {};
-    res.status(200).render('index.pug');
+    res.status(200).render('home.pug');
+});
+
+app.get('/contact', (req,res)=>{
+    // const params = {};
+    res.status(200).render('contact.pug');
 });
 
 
